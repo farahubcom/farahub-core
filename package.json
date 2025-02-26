@@ -1,6 +1,6 @@
 {
     "name": "@farahub/core",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "description": "Core module for the Farahub framework",
     "repository": {
         "type": "git",
@@ -15,7 +15,8 @@
         "@farahub/framework": "^1.0.3",
         "lodash": "^4.17.21",
         "mongoose": "^6.3.1",
-        "mongoose-lean-virtuals": "^0.9.0"
+        "mongoose-lean-virtuals": "^0.9.0",
+        "unique-slug": "^4.0.0"
     },
     "devDependencies": {}
 }

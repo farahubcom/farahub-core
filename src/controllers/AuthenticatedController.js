@@ -1,4 +1,4 @@
-const { Controller } = require('@farahub/foundation/foundation');
+const { Controller } = require('@farahub/framework/foundation');
 const { Auth, Workspace, Lang, Injection, Validator, Doc } = require('@farahub/framework/facades');
 const AuthenticatedWorkspacesValidator = require('../validators/AuthenticatedWorkspacesValidator');
 const SetCurrentWorkspaceValidator = require('../validators/SetCurrentWorkspaceValidator');
